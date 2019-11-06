@@ -18,7 +18,7 @@ function submitData(uName,uEmail)
     document.body.innerHTML = document.body.innerHTML+obj.id;
   })
   .catch(function(e){
-    document.body.innerHTML = document.body.innerHTML+e.message
+    document.body.innerHTML = document.body.innerHTML+e.message;
   })
 }
 

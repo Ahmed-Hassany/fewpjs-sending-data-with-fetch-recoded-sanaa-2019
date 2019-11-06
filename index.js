@@ -1,7 +1,7 @@
 // Add your code here
 function submitData(uName,uEmail)
 {
-  let dataObj = {name:uName,email:uEmail};
+  let dataObj = {"name":uName,"email":uEmail};
   let configObj ={
     method: "POST",
     headers: {

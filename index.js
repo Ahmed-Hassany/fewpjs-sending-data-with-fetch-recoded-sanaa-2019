@@ -11,4 +11,5 @@ function submitData(uName,uEmail)
     body: JSON.stringify(dataObj);
   }
   return fetch("http://localhost:3000/users",configObj)
+  .then()
 }

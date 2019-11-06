@@ -18,3 +18,4 @@ function submitData(uName,uEmail)
     document.body.innerHTML = document.body.innerHTML+obj.id;
   })
 }
+

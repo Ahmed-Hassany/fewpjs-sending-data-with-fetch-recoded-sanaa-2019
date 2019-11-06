@@ -9,7 +9,7 @@ function submitData(uName,uEmail)
       "Accept":"application/json"
     }
     body: JSON.stringify(dataObj);
-  }
+  };
   return fetch("http://localhost:3000/users",configObj)
   .then(function(res){
     return res.json();

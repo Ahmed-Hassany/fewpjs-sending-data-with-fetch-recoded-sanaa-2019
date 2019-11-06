@@ -8,6 +8,7 @@ function submitData(uName,uEmail)
       "Content-Type":"application/json",
       "Accept":"application/json"
     }
+    body: JSON.stringify(dataObj);
   }
   return fetch("http://localhost:3000/users",)
 }

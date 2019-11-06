@@ -15,6 +15,6 @@ function submitData(uName,uEmail)
     return res.json();
   })
   .then(function(obj){
-    
+    document.body.innerHTML = document.body.innerHTML+obj.id;
   })
 }
